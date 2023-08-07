@@ -11,7 +11,7 @@ on:
   push:
     branches:
       - master
-      - 'dev-*'
+      - 'dev*'
       - 'feat/**'
     paths-ignore:
       - '.github/worksflows/*'
